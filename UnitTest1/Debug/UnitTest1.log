@@ -1,0 +1,11 @@
+﻿  UnitTest1.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\UnitTest\include\CppUnitTestAssert.h(137,29): error C2676: binary '==': 'const T' does not define this operator or a conversion to a type acceptable to the predefined operator
+          with
+          [
+              T=MATRIX<int>
+          ]
+D:\Рабочий стол\дз\2семестр\ООП\Лаб 6.1-6.8\Lab6.4(OOP)\UnitTest1\UnitTest1.cpp(19): message : see reference to function template instantiation 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual<MATRIX<int>>(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)' being compiled
+          with
+          [
+              T=MATRIX<int>
+          ]
